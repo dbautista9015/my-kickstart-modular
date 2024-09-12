@@ -69,4 +69,7 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor. MINE
 vim.opt.scrolloff = 8
 
+-- Add vertical line at column 80
+vim.opt.colorcolumn = '80'
+
 -- vim: ts=2 sts=2 sw=2 et
